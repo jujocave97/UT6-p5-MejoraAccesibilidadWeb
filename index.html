@@ -2,18 +2,19 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Locura Burger</title>
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
     <header>
         <h1>Locura Burger</h1>
-        <nav>
+        <nav aria-label="Navegación principal">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="menu.html">Menú</a></li>
                 <li><a href="reservas.html">Reservar</a></li>
-                <li><a href="mas.html">Más</a></li>
+                <li><a href="mas.html">Más información</a></li>
             </ul>
         </nav>
     </header>
@@ -26,7 +27,10 @@
                 ¿El resultado? Un sabor único que te hará perder la cabeza.
             </p>
         </section>
-        <img src="./img/hamb1.png" alt="Hamburguesa con carne Dry Age y pan brioche" class="main-image" />
+        <figure>
+            <img src="./img/hamb1.png" alt="Hamburguesa con carne Dry Age y pan brioche" class="main-image" />
+            <figcaption>Hamburguesa con carne madurada y pan brioche</figcaption>
+        </figure>
     </main>
     <div class="separator">
         <p>
@@ -35,9 +39,18 @@
     </div>
     <div class="gallery-container">
         <section class="carousel" aria-label="Galería de hamburguesas">
-            <img src="./img/hamb1.png" alt="Hamburguesa clásica con queso" class="carousel-image gallery-image" />
-            <img src="./img/hamb2.png" alt="Hamburguesa doble con bacon" class="carousel-image gallery-image" />
-            <img src="./img/hamb3.png" alt="Hamburguesa especial con salsa secreta" class="carousel-image gallery-image" />
+            <figure>
+                <img src="./img/hamb1.png" alt="Hamburguesa clásica con queso" class="carousel-image gallery-image" />
+                <figcaption>Hamburguesa clásica con queso</figcaption>
+            </figure>
+            <figure>
+                <img src="./img/hamb2.png" alt="Hamburguesa doble con bacon" class="carousel-image gallery-image" />
+                <figcaption>Hamburguesa doble con bacon</figcaption>
+            </figure>
+            <figure>
+                <img src="./img/hamb3.png" alt="Hamburguesa especial con salsa secreta" class="carousel-image gallery-image" />
+                <figcaption>Hamburguesa especial con salsa secreta</figcaption>
+            </figure>
         </section>
         <article>
             <h2>Carne de Vaca Rubia Gallega</h2>
